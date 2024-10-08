@@ -7,6 +7,5 @@ related_posts: false
 
 <b>Exciting News: PhD Acceptance at the Technion! </b>
 
-
-I am thrilled to announce that I have been accepted into the PhD program at the Technion (Israel Institute of Technology) at the Data and Decision faculty.
-My supervisor are: Alexander Nadel & Ofer Strichman
+I am thrilled to announce that I have been accepted into the PhD program at the Technion (Israel Institute of Technology) in the Faculty of Data and Decision Sciences.
+My supervisors are Alexander Nadel and Ofer Strichman.
