@@ -2,12 +2,13 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: # add desc here if needed
+description: Some of my GitHub repositories # add desc here if needed
 nav: true
 nav_order: 4
 ---
 
-{% if site.data.repositories.github_users %}
+<!-- NOTE: uncomment this for additoal github info -->
+<!-- {% if site.data.repositories.github_users %}
 
 ## GitHub users
 
@@ -33,7 +34,7 @@ nav_order: 4
 
 {% endfor %}
 {% endif %}
-{% endif %}
+{% endif %} -->
 
 {% if site.data.repositories.github_repos %}
 
