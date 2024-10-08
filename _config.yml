@@ -234,7 +234,9 @@ exclude:
   - _pages/projects.md
   - _pages/teaching.md
   - _pages/profiles.md
+  - _pages/cv.md
   - _posts/
+  - _projects/
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
