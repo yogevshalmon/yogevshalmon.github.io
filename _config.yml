@@ -195,7 +195,7 @@ collections:
     output: true
     permalink: /:collection/:title/
   projects:
-    output: false
+    output: true
     permalink: /:collection/:title/
 
 announcements:
@@ -226,10 +226,15 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
+# NOTE: we exclude some of the pages and _posts etc to not show them currently
+# please remove them from the exclude list to return them
 include: ["_pages"]
 exclude:
   - _pages/blog.md
   - _pages/projects.md
+  - _pages/teaching.md
+  - _pages/profiles.md
+  - _posts/
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
