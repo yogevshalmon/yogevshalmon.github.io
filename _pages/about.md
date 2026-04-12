@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a PhD student in the [Faculty of Data and Decision Sciences](https://dds.technion.ac.il/) at the [Technion — Israel Institute of Technology](https://www.technion.ac.il/), advised by [Alexander Nadel](http://www.cs.tau.ac.il/research/alexander.nadel/) and [Ofer Strichman](https://oferstrichman.net.technion.ac.il/).
+I am a PhD student in the [Faculty of Data and Decision Sciences](https://dds.technion.ac.il/) at the [Technion — Israel Institute of Technology](https://www.technion.ac.il/), advised by [Alexander Nadel](https://dblp.org/pid/07/2593.html) and [Ofer Strichman](https://oferstrichman.net.technion.ac.il/).
 
 My research focuses on **SAT solvers** and their applications.
 
