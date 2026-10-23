@@ -5,7 +5,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Yogev
 middle_name:
-last_name: Shalmon
+last_name: Shalmon Barzel
 email: yogevshalmon@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -86,7 +86,7 @@ kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: yogev-shalmon-6613b8188 # your LinkedIn user name
+linkedin_username: yogev-shalmon-barzel-6613b8188 # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: 0009-0004-3720-4004 # your ORCID ID
@@ -319,8 +319,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Shalmon, Shalmon Barzel]
+  first_name: [Yogev, Y.]
 
   style: apa
   locale: en
