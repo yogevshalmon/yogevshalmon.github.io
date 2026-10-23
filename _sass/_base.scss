@@ -197,11 +197,11 @@ ul.task-list input[type="checkbox"] {
 
   .more-info {
     margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: monospace;
+    margin-top: 0.75rem;
+    text-align: center;
+    color: var(--global-text-color-light);
 
     p {
-      display: inline-block;
       margin: 0;
     }
   }
@@ -692,6 +692,7 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
+        max-width: 100%;
       }
 
       .abbr {
