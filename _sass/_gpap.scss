@@ -1,0 +1,72 @@
+/*******************************************************************************
+ * GPAP feature card: site colours, with the GPAP purple as the only accent
+ ******************************************************************************/
+
+$gpap-purple: #8e5efa;
+
+.gpap-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--global-divider-color);
+  border-left: 3px solid $gpap-purple;
+  border-radius: 0.25rem;
+
+  .gpap-card-icon {
+    flex: 0 0 auto;
+
+    img {
+      display: block;
+      width: 48px;
+      height: 48px;
+      image-rendering: pixelated;
+    }
+  }
+
+  .gpap-card-body {
+    min-width: 0;
+  }
+
+  .gpap-card-title {
+    a {
+      font-weight: bold;
+      color: var(--global-text-color);
+
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
+  }
+
+  .gpap-card-subtitle {
+    margin-left: 0.25rem;
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+  }
+
+  .gpap-card-text {
+    margin: 0.25rem 0 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  // same look as the buttons under each publication
+  .gpap-card-links a.btn {
+    color: var(--global-text-color);
+    border: 1px solid var(--global-text-color);
+    padding: 0.25rem 1rem;
+    margin-left: 0;
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+    }
+  }
+}
+
+// the publication thumbnail is the same pixel-art mark
+img.preview[src*="gpap_icon"] {
+  image-rendering: pixelated;
+}

@@ -36,6 +36,10 @@ nav_order: 4
 {% endif %}
 {% endif %} -->
 
+## Featured
+
+{% include gpap_card.liquid %}
+
 {% if site.data.repositories.github_repos %}
 
 ## GitHub Repositories
